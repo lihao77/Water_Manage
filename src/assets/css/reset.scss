@@ -1,0 +1,243 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; */
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  /* background-color: rgb(0, 20, 33); */
+  /* max-width: 1500px; */
+  /* min-width: 1500px; */
+  /* max-height: 600px;
+  min-height: 600px; */
+  height: 100%;
+  backdrop-filter: blur(20px);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-image: url("../bkg.png");
+  background-size: 100% 100%;
+}
+
+html,
+body,
+#app,
+.navContainer .mainContainer {
+  height: 100%;
+  
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.loginbody .el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+.el-form-item__label {
+  line-height: 30px;
+}
+
+.register .el-form-item {
+  margin: 0;
+}
+
+.register .el-form-item__content {
+  margin-bottom: 15px;
+}
+
+.el-popover {
+  min-width: 90px
+}
+
+.el-row--flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.columnCenter .el-card__header {
+  padding: 9px 10px;
+}
+
+.box-card {
+  height: 80%;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+#home .el-scrollbar__wrap{
+  overflow-x: hidden;
+}
+
+/* //滚动条整体的大小
+::-webkit-scrollbar
+{
+   width: 7px;
+   height: 0;
+}
+//滚动条里滑动的滑块
+::-webkit-scrollbar-thumb
+{
+   border-radius: 100px;
+   background-color: #b1b1b1c9;
+}
+//滚动条底层样式
+::-webkit-scrollbar-track
+{
+   display: none;
+
+} */
+
+@media screen and (max-width: 500px) {
+  .el-message {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .el-message-box{
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .el-dialog__wrapper .el-dialog {
+     width: 300px !important;
+     .el-dialog__body{
+      padding: 10px 20px 0;
+       .el-input{
+         width: 240px!important;
+       }
+     }
+   }
+}
